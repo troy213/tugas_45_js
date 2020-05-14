@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body onload="myFunction()">
+  <a href="index.html">
+    <h1>kembali ke halaman INDEX</h1>
+  </a>
+  <p id="hrf"></p>
+  <script type="text/javascript">
+    function myFunction() {
+      var a = location.href;
+      document.getElementById('hrf').innerHTML = "href : " + a;
+    }
+  </script>
+</body>
+
+</html>
